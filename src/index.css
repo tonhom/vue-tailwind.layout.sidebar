@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app{
+    @apply flex h-screen;
+}
+
+.stick{
+    @apply fixed top-0;
+}
+.toolbar-fixed{
+    @apply sticky top-0 bg-white;
+}
